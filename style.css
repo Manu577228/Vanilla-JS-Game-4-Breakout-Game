@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: 1px solid #ff00ff; /* Change border color to magenta */
+  margin-top: 80px;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #111; /* Dark background color */
+  background-image: linear-gradient(to right, #111, #333); /* Dark gradient effect */
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #551a8b; /* Dark purple color */
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ff9900; /* Orange color */
+  background-image: radial-gradient(circle, #ffcc00, #ff3300); /* Flame-like gradient effect */
+}
